@@ -2,7 +2,7 @@ import sys
 import os
 from github import Github
 
-path = "Downloads/MyScrap/pyLab_myLab/"
+workspace_path = "Downloads/MyScrap/pyLab_myLab/"
 
 username = "" #Assign your github username
 password = "" #Assign your github password
@@ -10,7 +10,7 @@ password = "" #Assign your github password
 def create():
     folderName = str(sys.argv[1])
     try:
-        os.mkdir(path + folderName)
+        os.mkdir(workspace_path + folderName)
     except OSError:
         print ("Creation of the directory {} failed".format(folderName))
     else:
