@@ -18,6 +18,6 @@ To run the script type in 'create <name of your project>'
 ### NOTE:
 ```bash
 This script will keep working until you turn off or restart your computer.
-Copy paste .create_command.sh file to your home directory and add below command to your .bashrc file to make this command work permanently:
+Copy paste .create_command.sh file to your home directory and add below command to your .bashrc file to make create command work permanently:
 source ~/.create_command.sh
 
