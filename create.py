@@ -2,7 +2,7 @@ import sys
 import os
 from github import Github
 
-workspace_path = "Downloads/MyScrap/pyLab_myLab/"
+workspace_path = "Downloads/myScrap/pyLab_myLab/"
 
 username = "" #Assign your github username
 password = "" #Assign your github password
