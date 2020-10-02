@@ -3,7 +3,13 @@ function create() {
     python create.py $1
     cd Downloads/myScrap/pyLab_myLab/$1
     git init
-    git remote add origin https://github.com/jeff007ali/$1.git
+
+    # for HTTPS
+    # git remote add origin https://github.com/jeff007ali/$1.git
+
+    # for SSH
+    git remote add origin git@github.com:jeff007ali/$1.git
+    
     touch README.md
     git add .
     git commit -m "Initial commit"
